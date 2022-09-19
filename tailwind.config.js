@@ -15,8 +15,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: withOpacityValue('--color-primary'),
-        contrast: withOpacityValue('--color-contrast'),
+        primary: '#091E40',
+        'primary-purple': '#6667AB',
+        bixlers:'#CCCCFF',
+        cornsilk:'#EEC374',
+        snow:'#FAFAFA',
+        'green-secondary': '#ADB8AB',
+        'night-rider': '#333333',
+        'blue-secondary': '#96CEEE',
+        'snow-white': '#F2F0EB',
+        sand:'#E0D2B9',
         notice: withOpacityValue('--color-accent'),
         shopPay: 'var(--color-shop-pay)',
       },
@@ -47,8 +55,8 @@ module.exports = {
         mobileGallery: 'calc(100vw - 3rem)',
       },
       fontFamily: {
-        sans: ['Helvetica Neue', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        serif: ['"IBMPlexSerif"', 'Palatino', 'ui-serif'],
+        sans: ['classico','classico-bold', 'sans-serif'],
+        santral:['santral-regular', 'santral-SemiBold','santral-light']
       },
       fontSize: {
         display: ['var(--font-size-display)', '1.1'],

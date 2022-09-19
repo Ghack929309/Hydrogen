@@ -35,9 +35,8 @@
   },
   "prettier": "@shopify/prettier-config",
   "dependencies": {
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
     "@headlessui/react": "^1.7.0",
+    "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.6",
     "@shopify/hydrogen": "^1.4.1",
     "clsx": "^1.1.1",
