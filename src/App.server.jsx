@@ -1,16 +1,16 @@
 import React from 'react';
 import renderHydrogen from '@shopify/hydrogen/entry-server';
-import HomePage from "./routes/pages/Homepage";
-
-
-
+import {FileRoutes, Router, ShopifyProvider} from '@shopify/hydrogen';
 
 function App() {
-
   return (
- <React.Fragment>
- <HomePage/>
- </React.Fragment>
+    <React.Fragment>
+      <ShopifyProvider>
+        <Router>
+          <FileRoutes />
+        </Router>
+      </ShopifyProvider>
+    </React.Fragment>
   );
 }
 
