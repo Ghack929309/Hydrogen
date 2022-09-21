@@ -21,6 +21,73 @@
     font-family: "santral-light";
     src: url("../assets/fonts/Santral-light.otf");
 }
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+#root{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/*GLOBAL CLASSES*/
+
+
+/* .flex{
+    display: flex;
+    
+    display: -ms-flexbox;
+    display: -webkit-flex;
+} */
+
+
+/*header*/
+.header-container{
+    /* flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 355px;
+    padding-top: 66px; */
+}
+.icons-left{
+    /* flex-direction: row;
+    justify-content:center;
+    gap: 85px;
+    align-items: left;
+    margin-left: 120px; */
+}
+.bixlers-logo{
+    /* margin-right: 20px; */
+}
+.icons-right{
+    /* flex-direction: row;
+    justify-content: center;
+    gap: 85px;
+    align-items: center; 
+    margin-left: 55px; */
+}
+.navbar{
+    /* font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    padding: 102px 0 100px 0; */
+}
+.nav{
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 84px; */  
+}
+.dropdown{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+
 /*!* Tokens *!*/
 /*:root {*/
 /*  --color-primary: 20 20 20; !* Text, buttons, etc. *!*/
