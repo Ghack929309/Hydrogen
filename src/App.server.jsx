@@ -1,16 +1,23 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import renderHydrogen from '@shopify/hydrogen/entry-server';
-import {FileRoutes,Link, Router, Route, ShopifyProvider} from '@shopify/hydrogen';
+import {
+  FileRoutes,
+  Link,
+  Router,
+  Route,
+  ShopifyProvider,
+} from '@shopify/hydrogen';
 
 function App() {
   return (
     <React.Fragment>
-      <ShopifyProvider>
-        <Router>
-          <FileRoutes />
-        </Router>
-        
-      </ShopifyProvider>
+      <Suspense>
+        <ShopifyProvider>
+          <Router>
+            <FileRoutes />
+          </Router>
+        </ShopifyProvider>
+      </Suspense>
     </React.Fragment>
   );
 }

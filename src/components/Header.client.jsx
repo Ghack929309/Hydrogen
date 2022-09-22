@@ -9,6 +9,7 @@ import {
   CartIcon,
 } from './Icons';
 import Navbar from './Navbar.client';
+import SecondHeroSection from './SecondHeroSection.client';
 
 const Header = () => {
   return (
@@ -17,9 +18,9 @@ const Header = () => {
         <div className="icons-left flex flex-row gap-x-20 justify-center items-center ml-32">
           <SearchIcon />
           <LocationIcon />
-          <ContactIcon />  
+          <ContactIcon />
         </div>
-        <div className='bixlers-logo mr-5'>
+        <div className="bixlers-logo mr-5">
           <BixlersLogo />
         </div>
         <div className="icons-right flex flex-row gap-x-20 justify-center items-center mr-14">
@@ -28,8 +29,11 @@ const Header = () => {
           <CartIcon />
         </div>
       </div>
-      <div className='navbar font-normal text-2xl leading-6 pt-24'>
+      <div className="navbar font-normal text-2xl leading-6 pt-24">
         <Navbar />
+      </div>
+      <div className="second-hero-section">
+        <SecondHeroSection />
       </div>
     </>
   );
