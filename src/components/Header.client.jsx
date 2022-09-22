@@ -9,7 +9,6 @@ import {
   CartIcon,
 } from './Icons';
 import Navbar from './Navbar.client';
-import SecondHeroSection from './SecondHeroSection.client';
 
 const Header = () => {
   return (
@@ -31,9 +30,6 @@ const Header = () => {
       </div>
       <div className="navbar font-normal text-2xl leading-6 pt-24">
         <Navbar />
-      </div>
-      <div className="second-hero-section">
-        <SecondHeroSection />
       </div>
     </>
   );
