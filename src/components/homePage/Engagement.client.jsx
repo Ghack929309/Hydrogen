@@ -1,0 +1,84 @@
+import React from 'react';
+import {Image} from '@shopify/hydrogen';
+
+import engagement from '../../assets/images/engagement.png';
+import loveEngagement from '../../assets/images/love-engagement.png';
+
+const Engagement = () => {
+  return (
+    <div className="engagement-container ">
+      <div className="engagement-eng flex flex-col">
+        <div>
+          <Image
+            src={engagement}
+            width="950"
+            height="500"
+            alt="engagement-rings"
+          />
+        </div>
+
+        <div className="engagement-sub flex flex-col gap-y-8 pt-10 pb-10">
+          <p className="font-santral font-light text-sm leading-4">
+            Engagement Rings
+          </p>
+          <h1 className="font-bold text-4xl">Engagement Rings</h1>
+          <div className="flex flex-row justify-center items-center gap-x-3">
+            <p className="font-santral font-light text-base leading-4">
+              Explore Engagement Rings
+            </p>
+            <ArrowRightIcon />
+          </div>
+        </div>
+      </div>
+      <div className="engagement-love">
+        <div>
+          <Image
+            src={loveEngagement}
+            width="950"
+            height="500"
+            alt="engagement-rings"
+          />
+        </div>
+
+        <div className="engagement-sub flex flex-col gap-y-8 pt-10 pb-10">
+          <p className="font-santral font-light text-sm leading-4">
+            BIXLERS™ Love <span>&#38;</span> Engagement
+          </p>
+          <h1 className="font-bold text-4xl">
+            Love <span>&#38;</span> Engagement
+          </h1>
+          <div className="flex flex-row justify-center items-center gap-x-3">
+            <p className="font-santral font-light text-base leading-4">
+              Explore Love <span>&#38;</span> Engagement
+            </p>
+            <ArrowRightIcon />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Engagement;
+
+const ArrowRightIcon = () => {
+  return (
+    <>
+      <svg
+        width="7"
+        height="12"
+        viewBox="0 0 7 12"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L6 6L1 11"
+          stroke="black"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </>
+  );
+};

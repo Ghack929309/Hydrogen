@@ -29,6 +29,7 @@ module.exports = {
         shopPay: 'var(--color-shop-pay)',
       },
       screens: {
+        
         sm: '32em',
         md: '48em',
         lg: '64em',

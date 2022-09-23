@@ -8,6 +8,8 @@ import {
   ShopifyProvider,
 } from '@shopify/hydrogen';
 
+import './components/homePage/homePage.client.css';
+
 function App() {
   return (
     <React.Fragment>

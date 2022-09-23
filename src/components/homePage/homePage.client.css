@@ -1,0 +1,532 @@
+.flex{
+    display: flex;
+}
+.border-blue2{
+    border: 2px solid blue;
+    border-style: dashed;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .header-container{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding-bottom: 20px;
+        min-width: 320px;
+
+        
+    }
+
+    .header-top-section{
+        width: 100%;
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+
+
+    }
+    .icons-left{
+        /* border: 2px solid red; */
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+
+    }
+    .bixlers-logo{
+        /* border: 2px solid red; */
+        /* width: 100%; */
+        width: 200px;
+        /* margin-left: 40px; */
+
+        
+        
+
+    }
+
+    .bixlers-logo svg{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .icons-right{
+        /* border: 2px solid red; */
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .navbar{
+        display: none;
+    }
+    .hamburger-button{
+        display: block;
+     
+        /* border: 3px solid red; */
+        position: absolute;
+        left: 5%;
+        
+    }
+    .cartWish-button{
+        display: block;
+
+        position: absolute;
+        right: 5%;
+        
+    }
+    /*SECOND HERO SECTION*/
+    /* .phone-image{
+        background-image: url('../../assets/images/rotary-phone.png');
+        background-size:100vw;
+        height: 500px;
+       
+    } */
+    .rotary-phone2{
+        display: block;
+    }
+    .rotary-phone1{
+        display: none;
+    }
+
+    
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 870px) {
+
+    /*HEADER*/
+    .header-container{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding-bottom: 30px;
+
+        
+    }
+
+    .header-top-section{
+        width: 100%;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        /* border: 1px solid blue; */
+
+    }
+    .icons-left{
+        /* border: 2px solid red; */
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+
+    }
+    .bixlers-logo{
+
+
+    }
+    .icons-right{
+        /* border: 2px solid red; */
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .navbar{
+        display: none;
+    }
+    .hamburger-button{
+        display: block;
+     
+        /* border: 3px solid red; */
+        position: absolute;
+        left: 50px;
+
+    }
+    .cartWish-button{
+        display: block;
+
+        position: absolute;
+        right: 50px;
+    }
+    /*SECOND HERO SECTION*/
+    /* .phone-image{
+        background-image: url('../../assets/images/rotary-phone.png');
+        background-size:100vw;
+        height: 500px;
+   
+    } */
+    .rotary-phone2{
+        display: none;
+    }
+    /*ENGAGEMENT + LOVE AND ENGAGEMENT*/
+    .engagement-container{
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+@media screen and (min-width:870px) and (max-width: 1200px)  {
+    
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        /* padding-left: 5% ;
+        padding-right: 5%; */
+        width: 100%;
+        padding-bottom: 30px;
+
+        
+    }
+
+    .header-top-section{
+        width: 100%;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8%;
+  
+
+    }
+    /* @media screen and (width: 1431px) {
+        .header-top-section{
+            gap: 5%;
+            border: 2px solid red;
+        }
+    } */
+    .icons-left{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        
+
+
+    }
+    .nav{
+        
+    }
+    .bixlers-logo{
+
+
+    }
+    .icons-right{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .navbar nav{
+    
+        
+    }
+    .hamburger-button{
+        display: none;
+    }
+    .cartWish-button{
+        display: none;
+    }
+    /*SECOND HERO SECTION*/
+    /* .phone-image{
+        background-image: url('../../assets/images/rotary-phone.png');
+        background-size:100vw;
+        height: 500px;
+    } */
+
+    .rotary-phone2{
+        display: none;
+    }
+    /*ENGAGEMENT + LOVE AND ENGAGEMENT*/
+    .engagement-container{
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
+
+}
+
+
+@media screen and (min-width:1200px) and (max-width: 1600px)  {
+
+    .header-container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding-bottom: 30px;
+
+        
+    }
+
+    .header-top-section{
+        width: 100%;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8%;
+        
+
+    }
+    .icons-left{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+
+    }
+    .bixlers-logo{
+
+
+    }
+    .icons-right{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    .navbar{
+
+    }
+    .hamburger-button{
+        display: none;
+    }
+    .cartWish-button{
+        display: none;
+    }
+
+    /*SECOND HERO SECTION*/
+    /* .phone-image{
+        background-image: url('../../assets/images/rotary-phone.png');
+        background-size:100vw;
+        height: 500px;
+    } */
+    /*ENGAGEMENT + LOVE AND ENGAGEMENT*/
+
+    .rotary-phone2{
+        display: none;
+    }
+    .engagement-container{
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
+
+}
+
+
+@media screen and (min-width:1600px) and (max-width: 1920px)  {
+    
+    .header-container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding-bottom: 30px;
+
+        
+    }
+
+    .header-top-section{
+        width: 100%;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        
+
+    }
+    /* @media screen and (width: 1431px) {
+        .header-top-section{
+            gap: 5%;
+            border: 2px solid red;
+        }
+    } */
+    .icons-left{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px
+
+
+    }
+    .bixlers-logo{
+
+
+    }
+    .icons-right{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    .navbar{
+
+    }
+    .hamburger-button{
+        display: none;
+    }
+    .cartWish-button{
+        display: none;
+    }
+
+    /*SECOND HERO SECTION*/
+    /* .phone-image{
+        background-image: url('../../assets/images/rotary-phone.png');
+        background-size: cover;
+        height: 500px;
+    } */
+    .rotary-phone2{
+        display: none;
+    }
+    
+    /*ENGAGEMENT + LOVE AND ENGAGEMENT*/
+    .engagement-container{
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1920px ) {
+    
+    .header-container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding-bottom: 30px;
+
+        
+    }
+
+    .header-top-section{
+        width: 100%;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15%;
+        
+
+    }
+    .icons-left{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px
+
+
+    }
+    .bixlers-logo{
+
+
+    }
+    .icons-right{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    .navbar{
+
+    }
+    .hamburger-button{
+        display: none;
+    }
+    .cartWish-button{
+        display: none;
+    }
+    /*SECOND HERO SECTION*/
+    /* .phone-image{
+        background-image: url('../../assets/images/rotary-phone.png');
+        background-size:100vw;
+        height: 500px;
+    } */
+
+    .rotary-phone2{
+        display: none;
+    }
+    /*ENGAGEMENT + LOVE AND ENGAGEMENT*/
+    .engagement-container{
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
+    .engagement-sub{
+
+    }
+    
+
+}
