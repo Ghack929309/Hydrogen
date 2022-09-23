@@ -9,9 +9,6 @@ import {
   CartIcon,
 } from './Icons';
 import Navbar from './Navbar.client';
-
-
-
 const Header = () => {
   return (
     <div className="header-container">
@@ -44,7 +41,6 @@ const Header = () => {
 };
 
 export default Header;
-
 
 export const CartWishlistIcon = () => {
   return (
@@ -106,7 +102,6 @@ export const CartWishlistIcon = () => {
     </svg>
   );
 };
-
 
 export const HamburgerIcon = () => {
   return (

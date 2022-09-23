@@ -94,6 +94,16 @@
         display: none;
     }
 
+     /*RING SECTION*/
+
+    
+    
+  
+     .big-text{
+        font-size: 148.3px;
+        font-weight: 700;
+    }
+
     
     
 }
@@ -174,6 +184,16 @@
         border-bottom: 1px solid black;
         display: flex;
         flex-direction: column;
+    }
+
+     /*RING SECTION*/
+
+    
+    
+  
+     .big-text{
+        font-size: 148.3px;
+        font-weight: 700;
     }
     
 }
@@ -265,6 +285,16 @@
         gap: 2%;
     }
 
+     /*RING SECTION*/
+
+    
+    
+  
+     .big-text{
+        font-size: 148.3px;
+        font-weight: 700;
+    }
+
 }
 
 
@@ -339,6 +369,16 @@
         justify-content: center;
         align-items: center;
         gap: 2%;
+    }
+
+     /*RING SECTION*/
+
+    
+    
+  
+     .big-text{
+        font-size: 148.3px;
+        font-weight: 700;
     }
 
 }
@@ -423,6 +463,16 @@
         gap: 2%;
     }
 
+     /*RING SECTION*/
+
+    
+    
+  
+     .big-text{
+        font-size: 148.3px;
+        font-weight: 700;
+    }
+
     
 }
 
@@ -500,6 +550,16 @@
     }
     .engagement-sub{
 
+    }
+
+    /*RING SECTION*/
+
+    
+    
+  
+    .big-text{
+        font-size: 148.3px;
+        font-weight: 700;
     }
     
 
