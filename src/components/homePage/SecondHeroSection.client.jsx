@@ -3,7 +3,6 @@ import {Image} from '@shopify/hydrogen';
 import rotaryPhone1 from '../../assets/images/rotary-phone1.png';
 import rotaryPhone2 from '../../assets/images/rotary-Phone2.png';
 
-// import './homePage.client.css';
 const SecondHeroSection = () => {
   return (
     <div className="w-full">

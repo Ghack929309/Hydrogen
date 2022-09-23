@@ -21,7 +21,7 @@ const Engagement = () => {
           <p className="font-santral font-light text-sm leading-4">
             Engagement Rings
           </p>
-          <h1 className="font-bold text-4xl">Engagement Rings</h1>
+          <h1 className="font-bold text-4xl pl-10 pr-10">Engagement Rings</h1>
           <div className="flex flex-row justify-center items-center gap-x-3">
             <p className="font-santral font-light text-base leading-4">
               Explore Engagement Rings
@@ -44,7 +44,7 @@ const Engagement = () => {
           <p className="font-santral font-light text-sm leading-4">
             BIXLERS™ Love <span>&#38;</span> Engagement
           </p>
-          <h1 className="font-bold text-4xl">
+          <h1 className="font-bold text-4xl pl-10 pr-10">
             Love <span>&#38;</span> Engagement
           </h1>
           <div className="flex flex-row justify-center items-center gap-x-3">
