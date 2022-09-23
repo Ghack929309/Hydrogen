@@ -2,6 +2,7 @@ import React from 'react';
 import {Image} from '@shopify/hydrogen';
 import rotaryPhone1 from '../../assets/images/rotary-phone1.png';
 import rotaryPhone2 from '../../assets/images/rotary-Phone2.png';
+import { ArrowRightIcon } from './Icons';
 
 const SecondHeroSection = () => {
   return (
@@ -31,41 +32,23 @@ const SecondHeroSection = () => {
         <p className="font-santral font-light text-sm leading-4">
           Book an Appointment
         </p>
-        <h1 className="font-bold text-4xl pl-10 pr-10">A Personalized Appointment</h1>
+        <h1 className="font-bold text-4xl pl-10 pr-10">
+          A Personalized Appointment
+        </h1>
         <p className="text-sm leading-4 pl-10 pr-10">
           We’re happy to help with in-store or virtual appointments.
         </p>
-        <div className="flex flex-row justify-center items-center gap-x-3">
-          <p className=" font-santral font-light text-base leading-4">
-            Book now{' '}
-          </p>
-          <ArrowRightIcon />
-        </div>
+        <a href="#" alt="book-now">
+          <div className="flex flex-row justify-center items-center gap-x-3">
+            <p className=" font-santral font-light text-base leading-4">
+              Book now{' '}
+            </p>
+            <ArrowRightIcon />
+          </div>
+        </a>
       </div>
     </div>
   );
 };
 
 export default SecondHeroSection;
-
-const ArrowRightIcon = () => {
-  return (
-    <>
-      <svg
-        width="7"
-        height="12"
-        viewBox="0 0 7 12"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M1 1L6 6L1 11"
-          stroke="black"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </>
-  );
-};

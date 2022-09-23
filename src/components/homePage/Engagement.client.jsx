@@ -3,7 +3,7 @@ import {Image} from '@shopify/hydrogen';
 
 import engagement from '../../assets/images/engagement.png';
 import loveEngagement from '../../assets/images/love-engagement.png';
-
+import { ArrowRightIcon } from './Icons';
 const Engagement = () => {
   return (
     <div className="engagement-container ">
@@ -22,12 +22,14 @@ const Engagement = () => {
             Engagement Rings
           </p>
           <h1 className="font-bold text-4xl pl-10 pr-10">Engagement Rings</h1>
-          <div className="flex flex-row justify-center items-center gap-x-3">
-            <p className="font-santral font-light text-base leading-4">
-              Explore Engagement Rings
-            </p>
-            <ArrowRightIcon />
-          </div>
+          <a href="#" alt="explore-engagement-rings">
+            <div className="flex flex-row justify-center items-center gap-x-3">
+              <p className="font-santral font-light text-base leading-4">
+                Explore Engagement Rings
+              </p>
+              <ArrowRightIcon />
+            </div>
+          </a>
         </div>
       </div>
       <div className="engagement-love">
@@ -47,12 +49,14 @@ const Engagement = () => {
           <h1 className="font-bold text-4xl pl-10 pr-10">
             Love <span>&#38;</span> Engagement
           </h1>
-          <div className="flex flex-row justify-center items-center gap-x-3">
-            <p className="font-santral font-light text-base leading-4">
-              Explore Love <span>&#38;</span> Engagement
-            </p>
-            <ArrowRightIcon />
-          </div>
+          <a href="#" alt="explore-love-and-engagement">
+            <div className="flex flex-row justify-center items-center gap-x-3">
+              <p className="font-santral font-light text-base leading-4">
+                Explore Love <span>&#38;</span> Engagement
+              </p>
+              <ArrowRightIcon />
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -60,25 +64,3 @@ const Engagement = () => {
 };
 
 export default Engagement;
-
-const ArrowRightIcon = () => {
-  return (
-    <>
-      <svg
-        width="7"
-        height="12"
-        viewBox="0 0 7 12"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M1 1L6 6L1 11"
-          stroke="black"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </>
-  );
-};

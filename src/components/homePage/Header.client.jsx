@@ -10,7 +10,7 @@ import {
 } from './Icons';
 import Navbar from './Navbar.client';
 
-import './homePage.client.css';
+
 
 const Header = () => {
   return (
